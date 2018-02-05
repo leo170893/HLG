@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Trang chủ";
+}
+<!--Slide-->
+@RenderPage("~/Views/Home/_Slide.cshtml")
+<!-- Details -->
+<section id="details" class="details">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="heading text-center">
+                    <p>Liên hệ</p>
+                    <h5>Giao hàng tận nhà</h5>
+                </div>
+                <a href="tel:0888222489" class="phone">0888 222 489</a>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="heading text-center">
+                    <p>Check Our Clients'</p>
+                    <h5>Rating &amp; Reviews</h5>
+                </div>
+                <a href="#dishes" class="reviews btn-unique"><i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+@RenderPage("~/Views/Home/_Product.cshtml")
+@RenderPage("~/Views/Home/_Clients.cshtml")
+@RenderPage("~/Views/Home/_News.cshtml")
+@RenderPage("~/Views/Home/_AboutUs.cshtml")
+@RenderPage("~/Views/Home/_Contact.cshtml")
